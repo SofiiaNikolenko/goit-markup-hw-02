@@ -12,6 +12,8 @@
     --button-click-color: #404BBF;
 }
 
+/* перевірити лайн хейт  */
+
 body{
     background-color: var(--neutral-color);
     color: var(--navyblue-color);
@@ -19,7 +21,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.logo, .nav-page, .contact-link {
+.logo, .nav-page, .contact-link, .portfolio-item-page{
     text-decoration: none;
 }
 
@@ -41,7 +43,7 @@ body{
 
 .nav-page{
     color: var(--navyblue-color);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     line-height: 24px;
 }
@@ -72,7 +74,7 @@ body{
 
 .main-title{
     color: var(--neutral-color);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 56px;
     line-height: 60px;
 }
@@ -80,7 +82,7 @@ body{
 .order-button{
     background-color: var(--iris-color);
     color: var(--neutral-color);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     cursor: pointer;
@@ -96,7 +98,7 @@ body{
 
 .title-advantage{
     color: var(--navyblue-color);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: 24px;
 }
@@ -109,7 +111,7 @@ body{
 
 .title-products{
     color: var(--navyblue-color);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
     line-height: 40px;
 }
@@ -120,14 +122,14 @@ body{
 
 .title-team{
     color: var(--navyblue-color);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
     line-height: 40px;
 }
 
 .employee-fullname{
     color: var(--navyblue-color);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: 24px;
 }
@@ -138,8 +140,50 @@ body{
     line-height: 24px;
 }
 
+.footer{
+    background-color: var(--navyblue-color);
+}
+
+.logo-studio-footer{
+    color: var(--cloud-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+}
+
 .footer-text{
     color: var(--coornflower-color);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+ /* portfolio */
+
+.filter-button{
+    background-color: var(--cloud-color);
+    color: var(--iris-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.filter-button:hover{
+    background-color: var(--iris-color);
+    color: var(--neutral-color);
+}
+
+.portfolio-item-title{
+    color: var(--navyblue-color);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.portfolio-item-filter{
+    color: var(--slate-color);
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
