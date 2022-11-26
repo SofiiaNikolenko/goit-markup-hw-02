@@ -1,14 +1,145 @@
-
+:root{
+    --neutral-color: #FFFFFF;
+    /* если шо, то видалити  нижній пункт */
+    --body-color: #E5E5E5;
+    --iris-color: #4D5AE5;
+    --navyblue-color: #2E2F42;
+    --green-color: #31D0AA;
+    --slate-color: #434455;
+    --lightslate-color: #8E8F99;
+    --coornflower-color: #E7E9FC;
+    --cloud-color: #F4F4FD;
+    --button-click-color: #404BBF;
+}
 
 body{
-    background-color: #FFFFFF;
+    background-color: var(--neutral-color);
+    color: var(--navyblue-color);
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
-.contact-item{
-    color: ;
+.logo, .nav-page, .contact-link {
+    text-decoration: none;
+}
+
+.logo-web{
+    color: var(--iris-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.logo-studio{
+    color: var(--navyblue-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.nav-page{
+    color: var(--navyblue-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nav-page:hover{
+    color: var(--slate-color);
+}
+
+.nav-page:active{
+    color:var(--iris-color);
+}
+
+.contact-link{
+    color: var(--slate-color);
+    /* записати про 400 */
     font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contact-link:hover, .contact-link:focus{
+    color: var(--iris-color);
+}
+
+.main-section{
+    background-color: var(--navyblue-color);
+}
+
+.main-title{
+    color: var(--neutral-color);
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 60px;
+}
+
+.order-button{
+    background-color: var(--iris-color);
+    color: var(--neutral-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background-color: var(--iris-color);
+}
+
+.order-button:active{
+    background-color: var(--button-click-color);
+}
+
+.title-advantage{
+    color: var(--navyblue-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.advantage-text{
+    color: var(--slate-color);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.title-products{
+    color: var(--navyblue-color);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.team-section{
+    background-color: var(--cloud-color);
+}
+
+.title-team{
+    color: var(--navyblue-color);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.employee-fullname{
+    color: var(--navyblue-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.employee-position{
+    color: var(--slate-color);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer-text{
+    color: var(--coornflower-color);
     font-size: 16px;
     line-height: 24px;
 }
